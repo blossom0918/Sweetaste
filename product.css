@@ -1,0 +1,296 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+  max-width: 1000px;
+  font-family: "Microsoft JhengHei", sans-serif;
+  margin: auto;
+}
+
+.header{
+  max-width: 900px;
+  margin: 20px;
+}
+
+.header img{
+  float: left;
+  width: 280px;
+}
+
+.menu li a{
+  float: right;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 30px;
+  color: #3f5d45;
+  font-weight:bold;
+}
+
+.clear{
+  clear:both;
+}
+
+.menu2{
+  margin: 50px;
+  font-weight:bold;
+  text-align: center;
+  width: 210px;
+  float: left;
+}
+
+.menu2 li{
+  color: #fff;
+  background-color: #3f5d45;
+  padding: 15px;
+}
+
+.kind li{
+  background-color: #fff;
+  border: 0.5px solid #eee;
+}
+
+.kind li a{
+  color: #3f5d45;
+  text-decoration: none;
+  display: block;
+}
+
+.kind li:hover{
+  background-color: #EEF7F0;
+}
+
+.product{
+  float: left;
+  width: 225px;
+  margin-top: 50px;
+  margin-left: 18px;
+  height: 380px;
+}
+
+.pic{
+  float: left;
+  width: 270px;
+  height: 380px;
+  margin-top: 50px;
+}  
+
+.product h1{
+  float: left;
+  margin-top: 35px;
+  margin-left: 7px;
+  font-size: 26px;
+  color: #2f4f4f;
+  font-weight: bold;
+}
+
+.price{
+  color: gray;
+  float: left;
+  margin-top: 30px;
+  margin-left: 55px;
+  font-size: 16px;
+  text-decoration:line-through;	
+}
+
+.discount{
+  color: lightpink;
+  float: left;
+  margin-top: 12px;
+  margin-left: 40px;
+  font-size: 22px;
+}
+
+.cart a{
+  float: left;
+  margin-top: 65px;
+  margin-left: -160px;
+  color: #2f4f4f;
+  text-decoration: none;
+  background-color: #fff;
+  border: 0.1px solid #2f4f4f;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.buy a{
+  float: left;
+  margin-top: 65px; 
+  margin-left: -50px;
+  color: #2f4f4f;
+  text-decoration: none;
+  background-color: #fff;
+  border: 0.1px solid #2f4f4f;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.detail{
+  float: left;
+  margin-top: 20px;
+  margin-left: 25px;
+  color: #2f4f4f;
+  font-size: 14px
+}
+
+.detail p{
+  padding-top: 5px;
+}
+
+.introduction{
+  float: none;
+  margin: auto;
+  width: 720px;
+  margin-top: 100px;
+  border: 1px solid #EEF7F0;
+}
+
+.introduction h2{
+  color: #2f4f4f;
+  font-size: 20px;
+  font-weight: bold;
+  background: #EEF7F0;
+  width: 80px;
+  padding: 12px;
+  margin-top: -45px;
+}
+
+.introduction h3{ 
+  text-align: center;  
+  line-height: 100px;
+  color: lightpink;
+  font-size: 30px; 
+}
+
+.introduction p{
+  text-align: center;  
+  line-height: 50px;
+}
+
+.introduction h4{
+  text-align: left;  
+  line-height: 80px;
+  margin-left: 50px;
+  color: gray;
+  font-size: 25px; 
+}
+
+.introduction img{
+  max-width: 550px;
+  max-height: 500px;
+  padding: 15px;
+}
+
+.footer{
+  max-width: 960px;
+  margin: 20px;
+  height: 350px;
+  background-color: #EEF7F0;
+}
+
+.footer img{
+  padding: 50px;
+  width: 220px;
+}
+
+.contact{
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.contact li{
+  color: #3f5d45;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.right{
+  float: right;
+  margin-right: 30px;
+}
+
+@media (max-width:1100px) { 
+  .menu2{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .pic{
+    float: none;
+    display: block;
+    margin: auto;
+    padding-top: 3%;
+  }
+  
+  .product{
+    float: none;
+    display: block;
+    margin: auto;
+    padding-top: 3%;
+  }
+  
+  .introduction{
+    max-width: 90%;
+  }
+
+  .introduction img{
+    max-width: 90%;
+  }
+  
+  .footer{
+    max-width: 90%;
+    float: none;
+    margin: auto;
+    margin-top: 3%;
+  }
+}
